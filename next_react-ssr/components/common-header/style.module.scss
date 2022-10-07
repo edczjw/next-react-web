@@ -1,0 +1,42 @@
+.c_hrader_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 168px;
+    background: #364cc6;
+    border-radius: 30px;
+    margin: 24px 0 24px 24px;
+    color: #fff;
+    height: max-content;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 48px;
+    &_logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 32px;
+    }
+    &_menu {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        li {
+            cursor: pointer;
+            a {
+                display: flex;
+                width: 80px;
+                height: 80px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: rgba(255, 255, 255, 0.06);
+                border-radius: 22px;
+                margin-bottom: 20px;
+                font-size: 13px;
+            }
+        } 
+    }
+}
