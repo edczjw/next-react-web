@@ -1,0 +1,27 @@
+.canvas_d1 {
+    width: 100%;
+    position: relative; 
+    .canvas {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+        background-color: rgb(19, 26, 43);
+    }
+    .btn_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin-top: 40px;
+        .btn {
+            border: none;
+            background: #ff4400;
+            font-size: 20px;
+            padding: 0 16px;
+            height: 44px;
+            color: #fff;
+            margin-right: 16px;
+            border-radius: 4px;
+        }
+    }
+}
