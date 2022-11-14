@@ -1,0 +1,23 @@
+.MainBox_wrapper{
+    .m_ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .item{
+            width: 200px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 14px;
+            text-align: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin: 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all .4s;
+            &:hover{
+                color: #ff4400;
+                transform: translateY(-8px);
+            }
+        }
+    }
+}

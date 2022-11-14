@@ -2,7 +2,7 @@
 const path = require('path')
 const nextConfig = {
   images: {
-    domains: ['img.thosefree.com'],
+    domains: ['img.thosefree.com','img0.baidu.com'],
   },
   reactStrictMode: true,
   swcMinify: true,

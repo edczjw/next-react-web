@@ -2,20 +2,20 @@
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    width: 168px;
+    width: 90px;
     background: #364cc6;
-    border-radius: 30px;
-    margin: 24px 0 24px 24px;
+    border-radius: 24px;
+    margin: 12px 0 12px 12px;
     color: #fff;
     height: max-content;
     position: sticky;
     position: -webkit-sticky;
-    top: 48px;
+    top: 24px;
     &_logo {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 32px;
+        margin-top: 24px;
     }
     &_menu {
         margin-top: 20px;
@@ -27,13 +27,13 @@
             cursor: pointer;
             a {
                 display: flex;
-                width: 80px;
-                height: 80px;
+                width: 60px;
+                height: 60px;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 background: rgba(255, 255, 255, 0.06);
-                border-radius: 22px;
+                border-radius: 20px;
                 margin-bottom: 20px;
                 font-size: 13px;
             }

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Cheader from '@/components/common-header/cHeader'
 import Swiper from '@/components/swiper/Swipers'
 import styles from './style.module.scss'
+import MainBox from '@/components/mainItem/Mainbox'
 
 const Home: NextPage = () => {
   return (
@@ -18,12 +19,12 @@ const Home: NextPage = () => {
         <Cheader></Cheader>
 
         <div className={styles.main_inner}>
-          欢迎来到杰瑞中心
-          <Swiper />
+          <MainBox />
+          {/* <Swiper /> */}
         </div>
-        <div className={styles.aside}>
+        {/* <div className={styles.aside}>
           <div className={styles.aside_block}></div>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>Copy Right©2022, All Rights Reserved. THOSEFREE.COM
