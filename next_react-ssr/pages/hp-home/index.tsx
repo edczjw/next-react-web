@@ -10,22 +10,14 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>杰瑞的首页</title>
+        <title>杰罗德的首页</title>
         <meta name="description" content="欢迎来到杰瑞的首页" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Cheader></Cheader>
+      <Cheader></Cheader>
 
-        <div className={styles.main_inner}>
-          <MainBox />
-          {/* <Swiper /> */}
-        </div>
-        {/* <div className={styles.aside}>
-          <div className={styles.aside_block}></div>
-        </div> */}
-      </main>
+      <MainBox />
 
       <footer className={styles.footer}>Copy Right©2022, All Rights Reserved. THOSEFREE.COM
         皖ICP备20005754号</footer>

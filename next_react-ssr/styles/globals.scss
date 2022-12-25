@@ -3,18 +3,25 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #EAEFFE;
-  font-family: Roboto, "PingFang SC", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  background-color: #fff;
+  font-family: "Droid Serif", Georgia, "Times New Roman", STHeiti, serif;
 }
-
+* {
+  box-sizing: border-box;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-ol, ul {
+ol,
+ul {
   list-style: none outside none;
 }
-dd, dl, li, ol, ul {
+dd,
+dl,
+li,
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
